@@ -1,10 +1,21 @@
 server:
   port: 8088
-  
+
 logging:
   level:
     org.springframework: DEBUG
-    
+
 Spring:
   messages:
     basename: messages
+  security:
+    user:
+      name: oiui1072
+      password: k1mjung12#
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
